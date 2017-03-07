@@ -48,80 +48,50 @@ config.vehicle = 'github.com/hyperledger/fabric/vehicle_code';
 
 config.users = [
     {
-        enrollmentID: 'DVLA',
+        enrollmentID: 'Kollur',
         attributes: [
             {name: 'role', value: 'regulator'},
-            {name: 'username', value: 'DVLA'}
+            {name: 'username', value: 'Kollur'}
         ],
         registrar: {},
         roles: [],
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'Toyota',
+        enrollmentID: 'Shah',
         attributes: [
             {name: 'role', value: 'manufacturer'},
-            {name: 'username', value: 'Toyota'}
+            {name: 'username', value: 'Shah'}
         ],
         registrar: {},
         roles: [],
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'Alfa_Romeo',
+        enrollmentID: 'Kothari',
         attributes: [
             {name: 'role', value: 'manufacturer'},
-            {name: 'username', value: 'Alfa_Romeo'}
+            {name: 'username', value: 'Kothari'}
         ],
         registrar: {},
         roles: [],
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'Jaguar_Land_Rover',
+        enrollmentID: 'Agarwal',
         attributes: [
             {name: 'role', value: 'manufacturer'},
-            {name: 'username', value: 'Jaguar_Land_Rover'}
+            {name: 'username', value: 'Agarwal'}
         ],
         registrar: {},
         roles: [],
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'Beechvale_Group',
+        enrollmentID: 'Ajay_Gosh',
         attributes: [
             {name: 'role', value: 'private'},
-            {name: 'username', value: 'Beechvale_Group'}
-        ],
-        registrar: {},
-        roles: [],
-        affiliation: 'institution_a'
-    },
-    {
-        enrollmentID: 'Milescape',
-        attributes: [
-            {name: 'role', value: 'private'},
-            {name: 'username', value: 'Milescape'}
-        ],
-        registrar: {},
-        roles: [],
-        affiliation: 'institution_a'
-    },
-    {
-        enrollmentID: 'Viewers_Alfa_Romeo',
-        attributes: [
-            {name: 'role', value: 'private'},
-            {name: 'username', value: 'Viewers_Alfa_Romeo'}
-        ],
-        registrar: {},
-        roles: [],
-        affiliation: 'institution_a'
-    },
-    {
-        enrollmentID: 'Joe_Payne',
-        attributes: [
-            {name: 'role', value: 'private'},
-            {name: 'username', value: 'Joe_Payne'}
+            {name: 'username', value: 'Ajay_Gosh'}
         ],
         registrar: {},
         roles: [],
@@ -138,70 +108,100 @@ config.users = [
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'Anthony_O_Dowd',
+        enrollmentID: 'Rahul_Ajay_Gandhi',
         attributes: [
             {name: 'role', value: 'private'},
-            {name: 'username', value: 'Anthony_O_Dowd'}
+            {name: 'username', value: 'Rahul_Ajay_Gandhi'}
         ],
         registrar: {},
         roles: [],
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'LeaseCan',
+        enrollmentID: 'Crayon_Bros_Ltd',
+        attributes: [
+            {name: 'role', value: 'private'},
+            {name: 'username', value: 'Crayon_Bros_Ltd'}
+        ],
+        registrar: {},
+        roles: [],
+        affiliation: 'institution_a'
+    },
+    {
+        enrollmentID: 'Aston_Cutting_Centre',
+        attributes: [
+            {name: 'role', value: 'private'},
+            {name: 'username', value: 'Aston_Cutting_Centre'}
+        ],
+        registrar: {},
+        roles: [],
+        affiliation: 'institution_a'
+    },
+    {
+        enrollmentID: 'ScrapIt',
+        attributes: [
+            {name: 'role', value: 'private'},
+            {name: 'username', value: 'ScrapIt'}
+        ],
+        registrar: {},
+        roles: [],
+        affiliation: 'institution_a'
+    },
+    {
+        enrollmentID: 'Adora',
         attributes: [
             {name: 'role', value: 'lease_company'},
-            {name: 'username', value: 'LeaseCan'}
+            {name: 'username', value: 'Adora'}
         ],
         registrar: {},
         roles: [],
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'Every_Car_Leasing',
+        enrollmentID: 'Tanishq',
         attributes: [
             {name: 'role', value: 'lease_company'},
-            {name: 'username', value: 'Every_Car_Leasing'}
+            {name: 'username', value: 'Tanishq'}
         ],
         registrar: {},
         roles: [],
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'Regionwide_Vehicle_Contracts',
+        enrollmentID: 'Kiah',
         attributes: [
             {name: 'role', value: 'lease_company'},
-            {name: 'username', value: 'Regionwide_Vehicle_Contracts'}
+            {name: 'username', value: 'Kiah'}
         ],
         registrar: {},
         roles: [],
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'Cray_Bros_London_Ltd',
+        enrollmentID: 'Gaurav_Singh',
         attributes: [
             {name: 'role', value: 'scrap_merchant'},
-            {name: 'username', value: 'Cray_Bros_London_Ltd'}
+            {name: 'username', value: 'Gaurav_Singh'}
         ],
         registrar: {},
         roles: [],
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'Aston_Scrap_Centre',
+        enrollmentID: 'Adwaith',
         attributes: [
             {name: 'role', value: 'scrap_merchant'},
-            {name: 'username', value: 'Aston_Scrap_Centre'}
+            {name: 'username', value: 'Adwaith'}
         ],
         registrar: {},
         roles: [],
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'ScrapIt_UK',
+        enrollmentID: 'AmarDev',
         attributes: [
             {name: 'role', value: 'scrap_merchant'},
-            {name: 'username', value: 'ScrapIt_UK'}
+            {name: 'username', value: 'AmarDev'}
         ],
         registrar: {},
         roles: [],
