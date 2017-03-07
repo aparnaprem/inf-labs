@@ -52,7 +52,7 @@ function create(req, res, next, usersToSecurityContext) {
             .then(function() {
                 return v5cIDResults.reduce(function(prev, v5cID, index) {
                     let car = cars[index];
-                    let seller = map_ID.user_to_id('DVLA');
+                    let seller = map_ID.user_to_id('Kollur');
                     let buyer = map_ID.user_to_id(car.Owners[1]);
                     return prev.then(function() {
                         return transferVehicle(v5cID, seller, buyer, 'authority_to_manufacturer');
