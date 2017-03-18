@@ -298,7 +298,7 @@ function scrapAsset()
 
 let bigData;
 let increment;
-function updateAsset(vin, make, model, colour, reg, v5cID, el)
+function updateAsset(diamondat, clarity, cut, colour, date, assetID, el)
 {
 	/*
 	Formats the transaction request to update an attribute of a V5C. The logic on who can update what is contained within the contract on the blockchain.
@@ -308,8 +308,8 @@ function updateAsset(vin, make, model, colour, reg, v5cID, el)
     $('#loaderMessages').html('');
 
 
-    bigData = [{'value':vin,'field':'VIN', 'title': 'VIN','v5cID':v5cID},{'value':make,'field':'make', 'title': 'Make','v5cID':v5cID},{'value':model,'field':'model', 'title': 'Model','v5cID':v5cID},{'value':colour,'field':'colour', 'title': 'Colour','v5cID':v5cID},{'value':reg,'field':'reg', 'title': 'Registration','v5cID':v5cID}];
-    increment=0;
+   bigData = [{'value':clarity,'field':'clarity', 'title': 'clarity','assetID':assetID},{'value':diamondat,'field':'diamondat', 'title': 'diamondat','assetID':assetID},{'value':cut,'field':'cut', 'title': 'cut','assetID':assetID},{'value':colour,'field':'colour', 'title': 'Colour','assetID':assetID},{'value':date,'field':'date', 'title': 'date','assetID':assetID},{'value':timestamp,'field':'timestamp', 'title': 'timestamp','assetID':assetID},{'value':symmetry,'field':'symmetry', 'title': 'symmetry','assetID':assetID},{'value':polish,'field':'polish', 'title': 'polish','assetID':assetID},{'value':jewellerytype,'field':'jewellerytype', 'title': 'jewellerytype','assetID':assetID}];
+    increment=0
 
     for(var i = bigData.length-1; i >= 0; i--)
 	{
